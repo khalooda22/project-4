@@ -1,0 +1,199 @@
+:root{
+    --main-color: #FEBD19;
+    --dark-color: #181A27;
+    --secondry-color: #23283B;
+}
+span{
+    color: var(--main-color);
+}
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(23, 25, 38, 0.7),rgba(23, 25, 38, 0.7)),
+    url(../images/intro_2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.parent-one{
+    background-color: var(--secondry-color);
+    color: gray;
+}
+.parent-one i{
+    color: var(--main-color);
+}
+.parent-two{
+    background-color: var(--dark-color);
+}
+.hold-icons i,.btn-head{
+    background-color: var(--main-color);
+}
+.btn-head:hover{
+    background-color: transparent;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+.who-are{
+    min-height: 100vh;
+    background-color: var(--dark-color);
+    background-image: linear-gradient(rgba(23, 25, 38, 0.8),rgba(23, 25, 38, 0.8)),
+    url(../images/pattern.png);
+    background-position: center;
+    background-size: cover;
+}
+.cd{
+    background-color: var(--secondry-color);
+    transform: rotatex(0);
+    transition: all 0.9s ease-in-out;
+    overflow: hidden;
+    color: white;
+}
+.cd:hover{
+    background-color:var(--main-color);
+    transform: scale(1.1);
+    color: black;
+}
+.hold-card {
+position: relative;
+}
+.hold-card .row{
+    position: absolute;
+    top: -74px;
+
+}
+
+.client-sat{
+    margin-bottom: 40px;
+
+}
+.client-sat .sat{
+    background-color: white;
+    height: 10px;
+    
+}
+.client-sat .sat span{
+    display: block;
+    background-color: var(--main-color);
+    height: 100%;
+    position: relative;
+    
+}
+.client-sat .sat span::before{
+    content: attr(data-progress);
+    position: absolute;
+    top: -37px;
+    right: -17px;
+    color: white;
+}
+.prof i{
+    background-color: var(--secondry-color);
+    margin-right: 15px;
+}
+.prof  p{
+    margin-right: 38px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.man-img{
+    position: relative;
+}
+.man-img img{
+    position: absolute;
+}
+.form-who{
+    background-color: var(--secondry-color);
+}
+.servic{
+    min-height: 100vh;
+    background-color: var(--secondry-color);
+}
+.serv-sec{
+    position: relative;
+}
+.serv-i{
+    background-color: var(--main-color);
+    position: absolute;
+    right: 12px;
+    top: -22px;
+}
+.serv-card{
+    background-color: #06070b;
+    position: absolute;
+    top: 181px;
+    width: 85%;
+}
+.serv-a{
+    color: var(--main-color);
+}
+.call-us{
+    min-height: 20vh;
+    background-image: linear-gradient(rgba(23, 25, 38, 0.8),rgba(23, 25, 38, 0.8)),
+    url(../images/call_us.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.back-call{
+    background-color: rgba(255, 255, 255, 0.273);
+    width: 140px;
+    text-align: center;
+}
+.why-cho{
+    position: relative;
+}
+.hold-img{
+    position: absolute;
+    top: 48px;
+    left: -75px;
+}
+.i-choo{
+    background-color: var(--secondry-color);
+    color: var(--main-color);
+}
+.testi-one{
+    background-color: #06070b;
+}
+.testi-two{
+    background-color: #111523;
+    position: relative;
+}
+.testi-sp{
+    position: absolute;
+    top: 516%;
+    left: 16%;
+
+}
+.weal{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.accordion-item{
+    background-color: var(--dark-color);
+    color: white;
+    border: 1px solid var(--dark-color);
+}
+.accordion-button{
+    background-color: var(--secondry-color);
+    color: white; 
+}
+.newest{
+    background-color: var(--secondry-color);
+    min-height: 80vh;
+}
+.blog-sec{
+    background-color: #111523;
+}
+.foot-one{
+    background-color: var(--dark-color);
+    min-height: 60vh;
+}
+.foot-i{
+    color: var(--main-color);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.foot-two{
+    background-color: var(--secondry-color);
+    min-height: 5vh;
+}
+.map-fit{
+    filter: grayscale(100%);
+}
